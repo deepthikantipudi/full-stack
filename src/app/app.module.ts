@@ -13,6 +13,8 @@ import { AddUserComponent } from './page/user/add-user/add-user.component';
 import { DeleteUserComponent } from './page/user/delete-user/delete-user.component';
 import { EditUserComponent } from './page/user/edit-user/edit-user.component';
 import { ListUserComponent } from './page/user/list-user/list-user.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { ListUserComponent } from './page/user/list-user/list-user.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AppMaterialModule
+    AppMaterialModule,
+    ReactiveFormsModule,
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
