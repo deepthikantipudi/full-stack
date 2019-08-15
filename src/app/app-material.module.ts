@@ -5,13 +5,28 @@ import * as  Material from '@angular/material';
   imports: [
     Material.MatToolbarModule,
     Material.MatFormFieldModule,
-    Material.MatCardModule
+    Material.MatCardModule,
+    Material.MatDividerModule,
+    Material.MatGridListModule,
+    Material.MatIconModule,
+    Material.MatInputModule
+    
+    
+   
     
   ],
   exports:[
     Material.MatToolbarModule,
     Material.MatFormFieldModule,
-    Material.MatCardModule
+    Material.MatCardModule,
+    Material.MatDividerModule,
+    Material.MatGridListModule,
+    Material.MatIconModule,
+    Material.MatInputModule
+    
+
+
+
 
 
   ]

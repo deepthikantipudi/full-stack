@@ -2,3 +2,24 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.error{
+    font-size: 12px;
+    color:crimson;
+}
+.title-header{
+    font-size: 19px;
+    color: #3f51b5;
+}
+.hint-msg{
+    color:burlywood;
+    font-size:55%;
+}
+.controls-container{
+    width:100%;
+    padding: 5%
+}
+.controls-container > *{
+    width:100%;
+    
+}
