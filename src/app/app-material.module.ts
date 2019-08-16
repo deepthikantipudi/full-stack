@@ -1,15 +1,28 @@
 import { NgModule } from '@angular/core';
 import * as  Material from '@angular/material';
+
+
 @NgModule({
   declarations: [],
   imports: [
     Material.MatToolbarModule,
-    Material.MatFormFieldModule,
+    Material.MatButtonModule,
     Material.MatCardModule,
-    Material.MatDividerModule,
-    Material.MatGridListModule,
+    Material.MatDialogModule,
+    Material.MatInputModule,
+    Material.MatTableModule,
     Material.MatIconModule,
-    Material.MatInputModule
+    Material.MatMenuModule,
+    Material.MatDividerModule,
+    Material.MatCheckboxModule,
+    Material.MatDividerModule,
+    Material.MatPaginatorModule,
+    Material.MatGridListModule,
+    Material.MatDatepickerModule,
+    Material.MatNativeDateModule,
+    Material.MatRadioModule,
+    Material.MatListModule
+   
     
     
    
@@ -17,12 +30,22 @@ import * as  Material from '@angular/material';
   ],
   exports:[
     Material.MatToolbarModule,
-    Material.MatFormFieldModule,
+    Material.MatButtonModule,
     Material.MatCardModule,
-    Material.MatDividerModule,
-    Material.MatGridListModule,
+    Material.MatDialogModule,
+    Material.MatInputModule,
+    Material.MatTableModule,
     Material.MatIconModule,
-    Material.MatInputModule
+    Material.MatMenuModule,
+    Material.MatDividerModule,
+    Material.MatCheckboxModule,
+    Material.MatDividerModule,
+    Material.MatPaginatorModule,
+    Material.MatGridListModule,
+    Material.MatDatepickerModule,
+    Material.MatNativeDateModule,
+    Material.MatRadioModule,
+    Material.MatListModule
     
 
 

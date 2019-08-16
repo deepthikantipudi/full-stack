@@ -1,25 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.spacer {
+    flex: 1 1 auto;
+}
 
-.error{
-    font-size: 12px;
-    color:crimson;
+.login-form-container {
+    display: flex;
+    flex-direction: column;
 }
-.title-header{
-    font-size: 19px;
-    color: #3f51b5;
+.login-form-container > * {
+    width: 100%;
 }
-.hint-msg{
-    color:burlywood;
-    font-size:55%;
+
+.error {
+    color: crimson;
 }
-.controls-container{
-    width:100%;
-    padding: 5%
+.error-msg {
+    display: block;
+    position: absolute;
+    font-size: 75%;
+    bottom: -2em;
 }
-.controls-container > *{
-    width:100%;
-    
+
+.hint-msg {
+    color: teal; /* crimson brown indianred burlywood indigo blueviolet teal */
+    font-size: 52%;
+}
+
+/*  tutorial */
+.div.container {
+    margin: 0px 40px;
+}
+form.normal-form {
+    margin: 10px;
+}
+.controls-container {
+    width: 100%;
+    padding: 5%;
+}
+.controls-container > * {
+    width: 100%;
+}
+.add-bottom-padding {
+    padding-bottom: 10px;
+}
+mat-radio-group mat-radio-button {
+    margin-left: 10px;
+}
+.button-row button {
+    margin: 5px;
 }
